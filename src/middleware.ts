@@ -13,5 +13,5 @@ export async function middleware(request: any) {
   return NextResponse.next();
 }
 export const config = {
-  matcher: ['/addCompany', '/organizations'],
+  matcher: ['/dashboard', '/addCompany', '/organizations'],
 };
