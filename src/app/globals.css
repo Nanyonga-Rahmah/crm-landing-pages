@@ -54,6 +54,12 @@
   outline: none;
   background-color: #f0f0f0;
 }
+@font-face {
+  font-family: 'REM';
+  src: url('/fonts/REM.woff2') format('woff2'), url('/fonts/REM.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 @layer base {
   * {
     @apply border-border;
@@ -61,5 +67,6 @@
 
   body {
     background-color: var(--background);
+    font-family: 'REM', sans-serif;
   }
 }
