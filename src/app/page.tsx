@@ -155,8 +155,8 @@ const LandingPage = () => {
           <h2 className="text-2xl font-bold text-center mb-4">
             The struggle of streamlining customer interactions
           </h2>
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2">
+          <div className="flex flex-col md:flex-row items-center md:px-20">
+            <div className="md:w-1/2 md:pl-20">
               <Image
                 src="/sally.png"
                 alt="Customer Interactions"
